@@ -1,0 +1,52 @@
+.nav-head{
+    background-color:black;
+    width:100%;
+    display:flex;
+    padding:10px;
+    justify-content:space-between;
+}
+.nav{
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;  
+    width:70%; 
+}
+.logo{
+    width:15%
+}
+.nav-Item{
+    color:white;
+    background-color: black;
+    border:none;
+    padding:10px;
+    font-size:20px;
+}
+a{
+    text-decoration: none;
+}
+.search-box{
+   background-color: black;
+   width:50%;
+   border:1px solid #ddd;
+   padding:5px;
+   display:flex;
+   align-items:center;
+   gap:5px;
+
+}
+.search-box input[type=search]{
+    width:90%;
+    outline:none;
+    border:none;
+    background-color: black;
+    color:white;
+}
+.movies-container{
+    display:flex;
+    flex-direction:column;
+    background-color: rgb(44, 42, 42);
+    height:90vh;
+    padding:10px;
+   
+}
